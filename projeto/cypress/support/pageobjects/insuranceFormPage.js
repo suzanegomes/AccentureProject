@@ -60,7 +60,7 @@ class insuranceFormPage {
         cy.get(insuranceElements.PasswordField).click().type("55968clauP.")
         cy.get(insuranceElements.ConfirmPasswordField).click().type("55968clauP.")
         cy.get('#sendemail').click()
-        cy.wait(10000)
+        cy.wait(11000)
     }
     
    confirmSuccessMessage(){

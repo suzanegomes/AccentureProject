@@ -1,0 +1,47 @@
+class insuranceElements{
+    //Vehicle Tab
+   MakeField = "#make"
+   ModelField = "#model"
+   CylinderField = "#cylindercapacity"
+   EngineField = "#engineperformance"
+   DateManufactureField = "#dateofmanufacture"
+   NumberSeatsField = "#numberofseats"
+   NumberSeatsMotor = "#numberofseatsmotorcycle"
+   FuelTypeField = "#fuel"
+   PayloadField = "#payload"
+   TotalWeight = "#totalweight"
+   ListPrice = "#listprice"
+   LicensePlateField = "#licenseplatenumber"
+   AnnualMileageField = "#annualmileage"
+   NextButtonVehicle = "#nextenterinsurantdata"
+   //Insurance Tab
+   FirstNameField = "#firstname"
+   LastNameField = "#lastname"
+   DateOfBirthField = "#birthdate"
+   GenderSection = ":nth-child(4) > .group > :nth-child(2) > .ideal-radio"
+   StreetAdress = "#streetaddress"
+   ZipCodeField = "#zipcode"
+   CountrySection = "#country"
+   CityField = "#city"
+   OccupationField = "#occupation"
+   WebsiteField = "#website"
+   NextButtonInsurance = "#nextenterproductdata"
+   //Product tab
+   StartDateField = "#startdate"
+   InsuranceSumField = "#insurancesum"
+   MeritRatingField = "#meritrating"
+   DamageInsuranceField = "#damageinsurance"
+   CourtesyCarField = "#courtesycar"
+   NextButtonProduct = "#nextselectpriceoption"
+    //Select Price tab
+    PriceOption = ":nth-child(3) > .ideal-radio"
+    NextButtonPriceOption = "#nextsendquote"
+    //Quote Tab
+    EmailField = "#email"
+    PhoneField = "#phone"
+    UsernameField = "#username"
+    PasswordField = "#password"
+    ConfirmPasswordField = "#confirmpassword"
+    SuccessMessage = ".sweet-alert"
+}
+export default insuranceElements 
