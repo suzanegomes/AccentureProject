@@ -1,0 +1,51 @@
+class insuranceFormElements {
+    //Vehicle Tab
+     MakeField = "#make"
+     ModelField = "#model"
+     CylinderField = "#cylindercapacity"
+     EngineField = "#engineperformance"
+     DateManufactureField = "#dateofmanufacture"
+     NumberSeatsField = "#numberofseats"
+     NumberSeatsMotor = "#numberofseatsmotorcycle"
+     FuelTypeField = "#fuel"
+     PayloadField = "#payload"
+     TotalWeight = "#totalweight"
+     ListPrice = "#listprice"
+     LicensePlateField = "#licenseplatenumber"
+     AnnualMileageField = "#annualmileage"
+     NextButtonVehicle = "#nextenterinsurantdata"
+     //Insurance Tab
+     FirstNameField = "#firstname"
+     LastNameField = "#lastname"
+     DateOfBirthField = "#birthdate"
+     GenderSection = ":nth-child(4) > .group > :nth-child(2)"
+     StreetAdress = "#streetaddress"
+     CountrySection = "#country"
+     ZipCodeField = "#zipcode"
+     CityField = "#city"
+     OccupationField = "#occupation"
+     WebsiteField = "#website"
+     PictureButton = "#picture"
+     NextButtonInsurance = "#nextenterproductdata"
+     //Product Tab
+     StartDateField = "#startdate"
+     InsuranceSumField = "#insurancesum"
+     MeritRatingField = "#meritrating"
+     DamageInsuranceField = "#damageinsurance"
+     OptionalProductsSection = "div.idealforms-field-checkbox:nth-child(5)"
+     CourtesyCarField = "#courtesycar"
+     NextButtonProduct = "#nextselectpriceoption"
+     //Select Price Tab
+     PriceOption = ":nth-child(3) > .ideal-radio"
+     NextButtonPriceOption = "#nextsendquote"
+     //Send Quote Tab
+     EmailField = "#email"
+     PhoneField = "#phone"
+     UsernameField = "#username"
+     PasswordField = "#password"
+     ConfirmPasswordField = "#confirmpassword"
+     SendButton = "#sendemail"
+     //Success Message
+     SuccessMessage = ".sweet-alert"
+ }
+ export default insuranceFormElements
